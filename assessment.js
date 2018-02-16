@@ -12,7 +12,7 @@ var faveNum = 5;
 var lovesCode = true;
 // #4 Using the previously created variables, create a new variable called 'me' that combines the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
-var me = `My name is ${myName} and my favorite number is ${faveNum}.`
+var me = `My name is ${myName} and my favorite number is ${faveNum}`
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum' that outputs true when comparing faveNum to your favorite number.
 
 var trueFaveNum = faveNum === 5;
@@ -56,6 +56,6 @@ function sum (num){
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
 
 function greeter (name, number){
-  return `Hi, I am ${name} and I am ${number} years old.`;
+  return `Hi, I am ${name} and I am ${number} years old`;
 }
 
